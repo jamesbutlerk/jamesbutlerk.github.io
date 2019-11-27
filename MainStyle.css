@@ -1,17 +1,18 @@
 body {
  background-color: #000000; /*Black background*/
  color: #FFFFFF;            /*White text*/
+ padding: 0px;              /*Unuseabale spac from the document body.*/
+ margin: 0px;
 }
 h1 {
-  font-family: 'Changa One', cursive;
-  text-align: center;
+  font-family: 'Changa One', cursive;     /*Header font*/
+  text-align: center;                     /*Center headers in whatever container they are in*/
 }
 nav {
-  list-style-type: none;
-  margin: 0;
+  margin: 0;                              /*No navbar trim*/
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #333333;                /*Unactive button color*/
 }
 nav a {
   float: left;
