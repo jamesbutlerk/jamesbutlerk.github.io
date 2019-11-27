@@ -2,3 +2,8 @@ body {
  background-color: #000000; /*Black background*/
  color: #FFFFFF;            /*White text*/
 }
+h1 {
+  font-family: 'Changa One', cursive;
+  text-align: center;
+
+}
