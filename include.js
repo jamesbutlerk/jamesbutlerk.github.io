@@ -21,6 +21,7 @@ function includeHTML() {
           includeHTML();
         }
       }
+      /*Make get request*/
       xhttp.open("GET", file, true);
       xhttp.send();
       return;
